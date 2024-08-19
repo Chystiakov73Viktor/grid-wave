@@ -1,5 +1,5 @@
-import imageUrlMobile from '../../../images/videoimg/video.jpg';
-import imageUrlTablet from '../../../images/videoimg/tablet-video.jpg';
+import imageUrlMobile from '../../images/videoimg/video.jpg';
+import imageUrlTablet from '../../images/videoimg/tablet-video.jpg';
 import { PlayIcon, Wrapper } from './Video.styled';
 
 const Video = () => {

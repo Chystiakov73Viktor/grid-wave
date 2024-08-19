@@ -8,9 +8,9 @@ import PostsMarkupItem from 'components/PostsMarkupItem/PostsMarkupItem';
 import BlogMarkupItem from './components/BlogMarkupItem/BlogMarkupItem';
 import SocialNetworksMarkupItem from './components/SocialNetworksMarkupItem/SocialNetworksMarkupItem';
 
-import posts from 'components/PostsMarkupItem/posts.json';
-import blogPosts from 'components/BlogMarkupItem/blogPosts.json';
 import socialNetworks from 'components/SocialNetworksMarkupItem/socialNetworks.json';
+import { blogPosts } from './components/BlogMarkupItem/blogPosts';
+import { posts } from './components/PostsMarkupItem/posts';
 
 const App = () => {
   return (
