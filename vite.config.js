@@ -14,4 +14,5 @@ export default defineConfig({
       images: '/src/images',
     },
   },
+  // base: '/grid-wave',
 })

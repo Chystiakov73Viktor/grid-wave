@@ -26,7 +26,7 @@ const platformColors = {
    const backgroundColor = platformColors[platform];
 
   return (
-    <LiWrapper backgroundColor={backgroundColor}>
+    <LiWrapper $backgroundColor={backgroundColor}>
       <a href="#" className="social-link">
         <div className="social-icon">{IconComponent}</div>
         <p className="social-subscripers">{subscripers}</p>

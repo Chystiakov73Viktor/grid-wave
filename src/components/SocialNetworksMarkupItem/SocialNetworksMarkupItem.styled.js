@@ -4,7 +4,7 @@ export const LiWrapper = styled.li`
   .social-link {
     border-radius: 16px;
     padding: 8px;
-    background: ${(props) => props.backgroundColor || '#d8def8'};
+    background: ${(props) => props.$backgroundColor || '#d8def8'};
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.5px;
