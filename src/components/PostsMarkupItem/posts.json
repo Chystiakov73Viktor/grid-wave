@@ -1,0 +1,26 @@
+[
+  {
+    "id": "id-1",
+    "title": "Коти та їхні чудові навички: від полювання до загадкових здібностей",
+    "imageUrl": {
+      "mobile": "/images/postimg/mobile1.jpg",
+      "tablet": "/images/postimg/tablet1.jpg"
+    }
+  },
+  {
+    "id": "id-2",
+    "title": "Коти в літературі та мистецтві: від Егіпетських богів до сучасних майстрів",
+    "imageUrl": {
+      "mobile": "/images/postimg/mobile2.jpg",
+      "tablet": "/images/postimg/tablet2.jpg"
+    }
+  },
+  {
+    "id": "id-3",
+    "title": "Котячі породи для активних власників: як вибрати компаньйона",
+    "imageUrl": {
+      "mobile": "/images/postimg/mobile3.jpg",
+      "tablet": "/images/postimg/tablet3.jpg"
+    }
+  }
+]
