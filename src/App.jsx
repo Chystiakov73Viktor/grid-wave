@@ -1,35 +1,50 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import AppBar from './components/AppBar/AppBar';
+import Footer from './components/Footer/Footer';
+import Video from './components/Video/Video';
+import { Container } from './components/Container/Container';
+import { Section } from './components/Section/Section';
+import { CardMarkupList } from 'components/CardMarkupList/CardMarkupList';
+import PostsMarkupItem from 'components/PostsMarkupItem/PostsMarkupItem';
+import BlogMarkupItem from './components/BlogMarkupItem/BlogMarkupItem';
+import SocialNetworksMarkupItem from './components/SocialNetworksMarkupItem/SocialNetworksMarkupItem';
 
-function App() {
-  const [count, setCount] = useState(0)
+import posts from 'components/PostsMarkupItem/posts.json';
+import blogPosts from 'components/BlogMarkupItem/blogPosts.json';
+import socialNetworks from 'components/SocialNetworksMarkupItem/socialNetworks.json';
 
+const App = () => {
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    <Container>
+      <AppBar />
 
-export default App
+      <Section className="hero">
+        <CardMarkupList
+          dataCard={posts}
+          ItemComponent={PostsMarkupItem}
+          gapClass="posts-gap"
+        />
+      </Section>
+
+      <Section className="first">
+        <CardMarkupList
+          dataCard={blogPosts}
+          ItemComponent={BlogMarkupItem}
+          gapClass="blog-gap"
+        />
+
+        <CardMarkupList
+          dataCard={socialNetworks}
+          ItemComponent={SocialNetworksMarkupItem}
+          gapClass="social-gap"
+          title="Соцмережі"
+        />
+
+        <Video />
+      </Section>
+
+      <Footer />
+    </Container>
+  );
+};
+
+export default App;
