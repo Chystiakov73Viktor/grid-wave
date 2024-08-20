@@ -7,14 +7,12 @@ export const LiWrapper = styled.li`
     gap: 36px;
   }
 
-
-
   @media (min-width: 768px) {
-  .blog-link {
-    gap: 24px;
-    grid-template-columns: 264px 1fr;
+    .blog-link {
+      gap: 24px;
+      grid-template-columns: 264px 1fr;
+    }
   }
-}
 
   .blog-image {
     width: 100%;
@@ -24,7 +22,6 @@ export const LiWrapper = styled.li`
   }
 
   .blog-title {
-    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     line-height: 1.4;
     letter-spacing: 0.03em;
@@ -33,8 +30,6 @@ export const LiWrapper = styled.li`
   }
 
   .blog-content {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.03em;
     color: #2c2c2c;

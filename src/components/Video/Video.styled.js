@@ -5,7 +5,6 @@ export const Wrapper = styled.div`
   position: relative;
 
   .video-title {
-    font-weight: 700;
     line-height: 36px;
     letter-spacing: 0.5px;
     margin-bottom: 24px;

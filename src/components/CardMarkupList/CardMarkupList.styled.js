@@ -7,7 +7,6 @@ export const DivWrapper = styled.div`
   }
 
   .title {
-    font-family: Montserrat, Helvetica, sans-serif;
     font-size: 28px;
     font-weight: 700;
     line-height: 36px;

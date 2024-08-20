@@ -10,7 +10,6 @@ export const Wrapper = styled.footer`
   }
 
   .cat-title {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 24px;
     line-height: 1.66667;
