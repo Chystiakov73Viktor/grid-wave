@@ -90,7 +90,6 @@ Error generating stack: `+i.message+`
   }
 
   .cat-title {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 24px;
     line-height: 1.66667;
@@ -101,7 +100,6 @@ Error generating stack: `+i.message+`
   position: relative;
 
   .video-title {
-    font-weight: 700;
     line-height: 36px;
     letter-spacing: 0.5px;
     margin-bottom: 24px;
@@ -181,7 +179,6 @@ Error generating stack: `+i.message+`
   }
 
   .title {
-    font-family: Montserrat, Helvetica, sans-serif;
     font-size: 28px;
     font-weight: 700;
     line-height: 36px;
@@ -269,14 +266,12 @@ Error generating stack: `+i.message+`
     gap: 36px;
   }
 
-
-
   @media (min-width: 768px) {
-  .blog-link {
-    gap: 24px;
-    grid-template-columns: 264px 1fr;
+    .blog-link {
+      gap: 24px;
+      grid-template-columns: 264px 1fr;
+    }
   }
-}
 
   .blog-image {
     width: 100%;
@@ -286,7 +281,6 @@ Error generating stack: `+i.message+`
   }
 
   .blog-title {
-    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     line-height: 1.4;
     letter-spacing: 0.03em;
@@ -295,8 +289,6 @@ Error generating stack: `+i.message+`
   }
 
   .blog-content {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.03em;
     color: #2c2c2c;
