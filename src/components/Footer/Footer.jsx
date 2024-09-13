@@ -1,4 +1,4 @@
-import cat from '../images/cat.svg';
+import cat from '../../images/cat.svg';
 import { Wrapper } from './Footer.styled';
 
 const Footer = () => {
